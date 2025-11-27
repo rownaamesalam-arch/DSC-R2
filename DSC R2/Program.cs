@@ -10,8 +10,9 @@
             //for (int i=1; i<= 12; i++)
             //{
             //    int result = num * i;
+            //    Console.WriteLine(result);
             //}
-            //Console.WriteLine("result");
+            
 
             //#endregion 
 
@@ -21,8 +22,10 @@
             //for( int i =0; i<= num;i++)
             //{
             //    sum += i;
+               
             //}
             //Console.WriteLine(sum);
+
             //#endregion
 
             //#region Q3
@@ -31,11 +34,11 @@
             //int counteven = 0;
             //Console.WriteLine(" how many numbers they want to enter");
             //int n = int.Parse(Console.ReadLine());
-            //for ( int i =1; i< n; i++)
+            //for ( int i =1; i<= n; i++)
             //{
             //    Console.WriteLine(i);
             //    int num = int.Parse(Console.ReadLine());
-            //    if (n %2 == 0)
+            //    if (num %2 == 0)
             //    {
             //        counteven++;
             //    }
@@ -51,7 +54,7 @@
             //#region Q4
             //int sum = 0;
             //int num;
-            //for( int i =0; i<=10; i++)
+            //for( int i =0; i<10; i++)
             //{
             //    Console.WriteLine(i);
             //    num = int.Parse(Console.ReadLine());
@@ -69,43 +72,43 @@
             //Console.WriteLine(sum);
             //#endregion
 
-        //    #region Bonus
+            //    #region Bonus
 
-        //    Console.Write("Enter the size  ");
-        //    int n = int.Parse(Console.ReadLine());
-        //    int[] nums = new int[n];
+            //    Console.Write("Enter the size  ");
+            //    int n = int.Parse(Console.ReadLine());
+            //    int[] nums = new int[n];
 
-        //    for (int i = 0; i < n; i++)
-        //    {
-        //        Console.Write( i );
-        //        nums[i] = int.Parse(Console.ReadLine());
-        //    }
+            //    for (int i = 0; i < n; i++)
+            //    {
+            //        Console.Write( i );
+            //        nums[i] = int.Parse(Console.ReadLine());
+            //    }
 
-        //    Console.Write("Enter target ");
-        //    int target = int.Parse(Console.ReadLine());
+            //    Console.Write("Enter target ");
+            //    int target = int.Parse(Console.ReadLine());
 
-        //    int[] result = TwoSum(nums, target);
+            //    int[] result = TwoSum(nums, target);
 
-        //    Console.WriteLine("[" + result[0] + "," + result[1] + "]");
-        //}
+            //    Console.WriteLine("[" + result[0] + "," + result[1] + "]");
+            //}
 
-        //static int[] TwoSum(int[] nums, int target)
-        //{
-        //    for (int i = 0; i < nums.Length; i++)
-        //    {
-        //        for (int j = i + 1; j < nums.Length; j++)
-        //        {
-        //            if (nums[i] + nums[j] == target)
-        //            {
-        //                return new int[] { i, j };
-        //            }
-        //        }
-        //    }
-        //    return new int[] { -1, -1 };
+            //static int[] TwoSum(int[] nums, int target)
+            //{
+            //    for (int i = 0; i < nums.Length; i++)
+            //    {
+            //        for (int j = i + 1; j < nums.Length; j++)
+            //        {
+            //            if (nums[i] + nums[j] == target)
+            //            {
+            //                return new int[] { i, j };
+            //            }
+            //        }
+            //    }
+            //    return new int[] { -1, -1 };
 
 
 
-        //    #endregion
+            //    #endregion
 
 
 
